@@ -1,0 +1,52 @@
+Herencia
+	extends
+	superclase y subclase
+	super() y super.metodo()
+	constructor()
+
+Arrys y ArraysLinks
+	Forma de incializarlos
+		String array[]
+		String[] array
+		int array[] = new int[3]
+
+	Forma de recorrelos
+		For
+		For each
+
+	Clase Arrays
+		binarySearch()
+		equals()
+		fill()
+		sort()
+		clone()
+			Es necesario ponerlo cuando se quieren arreglos iguales pero vas a modificarlos diferente. Sino se hace la referencia nada más y todas las modificaciones se ven afectas en los dos arreglos.
+		Arreglos bidimensionales
+		Arreglos multidimensionales
+		Arrays List 
+			Se puede cambiar la cantidad de elementos que posee el arreglo.
+			Se usan las clases primitivas "Integer"
+			Tiene métodos no estáticos
+
+Clase Polimorfismo
+	Clases Absatractas
+		Métodos abtractos que sol vinculan a los objetos
+	Implements
+		Se crea una clase que extiende de otra pero se trata como una superclase
+		Downcasting: Superclase como subclase
+		Upcasting: Subclase como superclase
+
+Exceptions
+	Try & Catch
+	Crear nuestras propias excepciones (throwlable)
+		getMessage
+		toString
+		printStackTrace
+
+Flujos de bytes
+	Con buffer y con las librerías de input
+
+Archivos
+	File
+	FuileinputStream (leer un flujo de datos en los archivos)
+	FileOutputStream (Escribir un dlujo de datos en los archivos)
